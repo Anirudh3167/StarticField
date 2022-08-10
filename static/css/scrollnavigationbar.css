@@ -1,0 +1,41 @@
+.localnavigation {
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    z-index: 5;
+    opacity: 1;
+    overflow: hidden;
+    background-color: black;
+}
+.imageside {
+    padding: 10px 15px;
+    position: absolute;
+    top:0;
+}
+.localnavigation ul {
+    position: absolute;
+    color:white;
+    top: 10.5%;
+    left: 60%;
+}
+.localnavigation li {
+    display: inline-block;
+    padding :15px 15px;
+    font-size: 18px;
+}
+.localnavigation li .active {
+    display: inline-block;
+    padding:15px 17px;
+    font-size: 17px;
+    color: blue;
+}
+.navbarelements {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+.activenavbarelements {
+    text-decoration: none;
+    font-weight: 500;
+    color: blue;
+}

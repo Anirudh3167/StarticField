@@ -1,0 +1,56 @@
+.MainFooter {
+    position: absolute;
+    top: 100vh;
+    left:0%;
+    width: 100%;
+    height: 60%;
+    background-color: #000000;
+    color: white;
+    z-index: 2;
+}
+.MainFooter img {
+    position: absolute;
+    top: 0%;
+    width: 15%;
+    height: 25%;
+    left: 5%;
+}
+.CopyRight {
+    position: absolute;
+    top:85%;
+    left:1%;
+    width: auto;
+    height: auto;
+}
+.footercontent {
+    position: absolute;
+    text-align: left;
+    left: 1%;
+    top:30%;
+    width:25%;
+    height:auto;
+}
+.MainHeading {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    top:var(--h);
+    left:var(--l);
+    font-size: 28px;
+    width: auto;
+    height: auto;
+}
+.SubHeading {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    height: auto;
+    width: auto;
+    top: var(--h);
+    left: var(--l);
+}
+.SocialLinks img {
+    position: relative;
+    left:var(--j);
+    height: 70px;
+}
